@@ -1,10 +1,12 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!! VAN DER POL OSCILLATOR: SOLUTION COMPUTATION !!!!
 !!!!!!!  APPLICATION OF RUNGE-KUTTA 4 METHOD   !!!!!!!  
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 PROGRAM vanderpol
 	IMPLICIT NONE
-	INTEGER :: i = 0
+	INTEGER :: i,j = 0
 	REAL :: ti, tf, h, temp
 	INTEGER, PARAMETER :: N=4000
 	REAL, DIMENSION(2) :: x0, x1
@@ -12,7 +14,7 @@ PROGRAM vanderpol
 	REAL, DIMENSION(N,2) :: vdp
 
 	ti=0
-	tf=100
+	tf=50
 	temp=0
 	h=(tf-ti)/N
 	x0(1) = 1.5
@@ -29,7 +31,7 @@ PROGRAM vanderpol
 	WRITE(*,*) "Solution WRITTEN on 'sol.dat'"
 	
 
-	!! write solution on file
+	!! WRITE SOLUTION ON FILE
 	OPEN(1, file='sol.dat')
 
 	DO WHILE (temp <= tf )
@@ -42,10 +44,11 @@ PROGRAM vanderpol
 	END DO
 		
 	CLOSE(1)
+	CALL SYSTEM('gnuplot -p')
 
 CONTAINS
 
-	!! Vectorial equation definition	
+	!! IMPLEMENTING VAN DER POL EQUIVALENT I ORDER SYSTEM	
 	FUNCTION vdp_eval(x)
 		! Van Der Pol Oscillator
 		REAL, DIMENSION(2) :: vdp_eval
