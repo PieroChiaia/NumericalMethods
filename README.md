@@ -13,11 +13,11 @@ Complete repository of personal codes
   7. vanderpol.m - *Numerical Simulation of Van Der Pol non linear oscillator with different numerical schemes*
   8. wave_eq.m - *Wave second order partial differential equation solved by equivalent vectorial advection equation*
 
-## PYTHON folder:
+## PYTHON folder
   1. lorenz.py - *Numerical Simulation of Lorenz System with Runge Kutta 4 method*
   2. lotkavolterra.py - *Numerical Simulation of Lotka-Volterra system with Runge Kutta 4 method*
 
-## FORTRAN folder:
+## FORTRAN folder
   1. advection.f90 - *Advection equation with Law-Wendroff scheme*
   2. lorenzattractor.f90 - *Numerical Simulation of Lorenz System with Runge Kutta 4 method*
   3. secant.f90 - *Implementing the secant method for non-linear equation*
