@@ -6,7 +6,6 @@
 
 PROGRAM advection_equation
 	IMPLICIT NONE
-	INTEGER :: i,j = 0  		! Indici per cicli
 	REAL, PARAMETER :: ti=0
 	REAL, PARAMETER :: tf=10
 	REAL, PARAMETER :: xs=-1
