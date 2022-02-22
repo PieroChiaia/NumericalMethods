@@ -1,7 +1,7 @@
 # Numerical Methods
 
-Complete repository of personal codes
-.... Update of 22/02 ....
+Complete repository of personal codes.
+- Last update: 22/02
 
 ## MATLAB folder
   1. advection.m - *Advection equation with Lax-Friedrichs, Law-Wendroff, Upwind I and II order scheme*
