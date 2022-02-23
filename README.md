@@ -1,7 +1,7 @@
 # Numerical Methods
 
 Complete repository of personal codes.
-- Last update: 22/02
+- Last update: 23/02
 
 ## MATLAB folder
   1. advection.m - *Advection equation with Lax-Friedrichs, Law-Wendroff, Upwind I and II order scheme*
@@ -22,3 +22,5 @@ Complete repository of personal codes.
   2. lorenzattractor.f90 - *Numerical Simulation of Lorenz System with Runge Kutta 4 method*
   3. secant.f90 - *Implementing the secant method for non-linear equation*
   4. vanderpol.f90 - *Numerical Simulation of Van Der Pol non linear oscillator with different numerical schemes*
+  5. lu.f90 - *Computes LU factorization of a given matrix A, no pivoting techniques*
+  6. linsys_lu.f90 - *Computes the solution of Ax=b with LU factorization and triangular system solving schemes*
