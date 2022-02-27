@@ -12,6 +12,7 @@ Complete repository of personal codes.
   5. lu.f90 - *Computes LU factorization of a given matrix A, no pivoting techniques*
   6. linsys_lu.f90 - *Computes the solution of Ax=b with LU factorization*
   7. pivot_lu.f90 - *Computes the solution of Ax=b with LU factorization and row pivoting*
+  8. test_lynsys.f90 - *Test systems for already written program, with verified solution*
 
 ## MATLAB folder
   1. advection.m - *Advection equation with Lax-Friedrichs, Law-Wendroff, Upwind I and II order scheme*
