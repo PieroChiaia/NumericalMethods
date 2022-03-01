@@ -1,7 +1,7 @@
 # Numerical Methods
 
 Complete repository of personal codes.
-- Last update: 27/02
+- Last update: 01/03
 
 
 ## FORTRAN folder
@@ -29,4 +29,5 @@ Complete repository of personal codes.
 ## PYTHON folder
   1. lorenz.py - *Numerical Simulation of Lorenz System with Runge Kutta 4 method*
   2. lotkavolterra.py - *Numerical Simulation of Lotka-Volterra system with Runge Kutta 4 method*
+  3. duffing_ab3.py - *Animation of Poincarè map of Duffing oscillator*
 
