@@ -21,10 +21,8 @@ Complete repository of personal codes.
   2. burgers.m   - *Burgers inviscid equation with Law-Wendroff, Upwind I and II, Mac-Cormack scheme*
   3. lorenzattractor.m - *Numerical Simulation of Lorenz System with Dorman-Prince embedded Runge Kutta method*
   4. secant_method.m - *Implementing the secant method for non-linear equation*
-  5. secondregression_vs_QR.m - *Second order regression with Lagrange Polynomials and QR factorization*
-  6. stability_BE_FE_CN.m - *Stability study of classical numerical methods for ordinary differential equations*
-  7. vanderpol.m - *Numerical Simulation of Van Der Pol non linear oscillator*
-  8. wave_eq.m - *Wave second order partial differential equation solved by equivalent vectorial advection equation*
+  5. stability_BE_FE_CN.m - *Stability study of classical numerical methods for ordinary differential equations*
+  6. wave_eq.m - *Wave second order partial differential equation solved by equivalent vectorial advection equation*
 
 ## PYTHON folder
   1. lorenz.py - *Numerical Simulation of Lorenz System with Runge Kutta 4 method*
