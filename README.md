@@ -15,6 +15,7 @@ Complete repository of personal codes.
   8. test_linsys.f90 - *Test systems for already written program, with verified solution*
   9. duffing_rk4.f90 - *Numerical Simulation of Duffing oscillator with Runge-Kutta 4 method*
  10. duffing_ab3.f90 - *Poincarè map of Duffing oscillator by Adams-Bashforth 3 scheme*
+ 11. bicgstab.f90 - *BiCGStab without peconditioning for linear systems*
 
 ## MATLAB folder
   1. advection.m - *Advection equation with Lax-Friedrichs, Law-Wendroff, Upwind I and II order scheme*
